@@ -1,0 +1,81 @@
+files:
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: config.json
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/config.json
+    sha256: a4ff86c1c374895ef3ef4cceb4041542a5e7d29ebcec2b8377efc4b6f09ac44f
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: llm/config.json
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/llm/config.json
+    sha256: be33b351410a341de1a8b4b4cf8f4604a702ad22d5516225521704e3fa48ee1a
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: llm/generation_config.json
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/llm/generation_config.json
+    sha256: 37e2904bb4bc0d9a49c8d0fade95c0a7c887a6658880563afe1140274c2fe6eb
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: llm/model-00001-of-00004.safetensors
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/llm/model-00001-of-00004.safetensors
+    sha256: d4df84977665ab9be02f987a4eccd56abb0ac7273f12f6906f50c13bc7110371
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: llm/model-00002-of-00004.safetensors
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/llm/model-00002-of-00004.safetensors
+    sha256: 42c210a04fc723675f858b383d546d2d5e0d4aa857d4fb321d3e57da241796f9
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: llm/model-00003-of-00004.safetensors
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/llm/model-00003-of-00004.safetensors
+    sha256: d53f6cab87861720f85f22af13e756cd7cccf569c2f8c096a7ec38d513be43e4
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: llm/model-00004-of-00004.safetensors
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/llm/model-00004-of-00004.safetensors
+    sha256: f35c5720effc40db734ac67b232e0b97389f802251d5d4d2480987f91f6dc937
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: llm/model.safetensors.index.json
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/llm/model.safetensors.index.json
+    sha256: ce350cea18b4668fef697710325e81cf7974430444764275558a06dd9460a734
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: llm/special_tokens_map.json
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/llm/special_tokens_map.json
+    sha256: 214dd83efd2bfad51e3e87df20334fdcdcc6192d0118779efb86ef5a83cac5e4
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: llm/tokenizer.json
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/llm/tokenizer.json
+    sha256: 5f73571014de620e0f67384ff0193a5a4aa5bdc332b6e1ae5fce7f99a001116d
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: llm/tokenizer_config.json
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/llm/tokenizer_config.json
+    sha256: 8fce1247f7d4b166d1dfd4114892dd9369e13cdabd174959f96abd8897316a4b
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: mm_projector/config.json
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/mm_projector/config.json
+    sha256: 197f034b36aa17ac67cbf9dfea4015445378569120d87158b92f8ea76ef6fb49
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: mm_projector/model.safetensors
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/mm_projector/model.safetensors
+    sha256: 0921455072f43bfe67637a6d69faa7248b830c15dc67a6e9798b50e2aed6d376
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: vision_tower/config.json
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/vision_tower/config.json
+    sha256: 6f335f2b406b661cc0fc5419c209729cd1b179d4193a2037deddf6a77829be59
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: vision_tower/model.safetensors
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/vision_tower/model.safetensors
+    sha256: 1ff7d080a98a3f014b057dca741d7be358b700565493a15dfd82cb98903b0c4b
+  - repo: a8cheng/navila-llama3-8b-8f
+    filename: vision_tower/preprocessor_config.json
+    revision: b2294e96581454468d6b94f38201f4f965ef48b7
+    dest: model/vision_tower/preprocessor_config.json
+    sha256: f59da2f87c3cd079bd4f8f3037e81b277c60c498e279a8020331f67a5a3157e8

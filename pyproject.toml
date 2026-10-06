@@ -1,0 +1,35 @@
+[project]
+name = "arena_planners_navila"
+version = "0.0.0"
+description = "NaVILA planner adapter for arena_planners bridge."
+requires-python = ">=3.10"
+dependencies = [
+    "arena_planners",
+    "torch>=2.14",
+    "transformers>=5",
+    "safetensors",
+    "numpy",
+    "pillow",
+    "pyyaml",
+]
+
+[tool.uv.sources]
+arena_planners = { git = "https://github.com/arena-planners/arena_planners.git", branch = "jazzy", subdirectory = "arena_planners" }
+
+[tool.setuptools]
+packages = []
+py-modules = []
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["model_navila.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["model_navila"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
